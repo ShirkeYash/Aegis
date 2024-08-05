@@ -1,117 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-31T16:37:41 IST" name="Default suite" finished-at="2024-07-31T16:38:51 IST" duration-ms="69943">
+  <suite started-at="2024-08-05T10:44:07 IST" name="Default suite" finished-at="2024-08-05T10:45:13 IST" duration-ms="66158">
     <groups>
     </groups>
-    <test started-at="2024-07-31T16:37:41 IST" name="Default test" finished-at="2024-07-31T16:38:51 IST" duration-ms="69943">
-      <class name="aegis.TestScripts.add_department_in_departmentList">
-        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:37:41 IST" name="BeforSuite" finished-at="2024-07-31T16:37:41 IST" duration-ms="97" status="PASS">
+    <test started-at="2024-08-05T10:44:07 IST" name="Default test" finished-at="2024-08-05T10:45:13 IST" duration-ms="66158">
+      <class name="aegis.TestScripts.machine_punching_and_punch_sync">
+        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:07 IST" name="BeforSuite" finished-at="2024-08-05T10:44:07 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:37:41 IST" name="BeforeTest" finished-at="2024-07-31T16:37:44 IST" duration-ms="2666" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:07 IST" name="BeforeTest" finished-at="2024-08-05T10:44:09 IST" duration-ms="1777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:37:44 IST" name="BeforeClass" finished-at="2024-07-31T16:38:40 IST" duration-ms="56030" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:09 IST" name="BeforeClass" finished-at="2024-08-05T10:44:52 IST" duration-ms="43359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:38:40 IST" name="BeforeMethod" finished-at="2024-07-31T16:38:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:53 IST" name="BeforeMethod" finished-at="2024-08-05T10:44:53 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="addDepartment()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:38:40 IST" name="addDepartment" finished-at="2024-07-31T16:38:44 IST" duration-ms="3941" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=127.0.6533.73)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3ff1c71489042cee8fe389ede4b780f0, sendKeysToElement {id=f.2F3C04C5F366AD6249A991D7CA5DCCF2.d.923323822C43CE21C610112F4D907FC3.e.73, value=[Ljava.lang.CharSequence;@320494b6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Yashsh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64156/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3ff1c71489042cee8fe389ede4b780f0)] -> xpath: (//div[@class=' css-19bb58m'])[1]]
-Session ID: 3ff1c71489042cee8fe389ede4b780f0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=127.0.6533.73)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3ff1c71489042cee8fe389ede4b780f0, sendKeysToElement {id=f.2F3C04C5F366AD6249A991D7CA5DCCF2.d.923323822C43CE21C610112F4D907FC3.e.73, value=[Ljava.lang.CharSequence;@320494b6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Yashsh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64156/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3ff1c71489042cee8fe389ede4b780f0)] -> xpath: (//div[@class=' css-19bb58m'])[1]]
-Session ID: 3ff1c71489042cee8fe389ede4b780f0
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
-at aegis.TestScripts.add_department_in_departmentList.addDepartment(add_department_in_departmentList.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="punchSync()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:53 IST" name="punchSync" finished-at="2024-08-05T10:45:07 IST" duration-ms="14683" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addDepartment -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:38:44 IST" name="AfterMethod" finished-at="2024-07-31T16:38:45 IST" duration-ms="564" status="PASS">
+        </test-method> <!-- punchSync -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:07 IST" name="AfterMethod" finished-at="2024-08-05T10:45:08 IST" duration-ms="792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:38:45 IST" name="AfterClass" finished-at="2024-07-31T16:38:48 IST" duration-ms="3221" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:08 IST" name="AfterClass" finished-at="2024-08-05T10:45:11 IST" duration-ms="3228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:38:48 IST" name="AfterTest" finished-at="2024-07-31T16:38:51 IST" duration-ms="3041" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:11 IST" name="AfterTest" finished-at="2024-08-05T10:45:13 IST" duration-ms="2031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.TestScripts.add_department_in_departmentList@1972e513]" started-at="2024-07-31T16:38:51 IST" name="AfterSuite" finished-at="2024-07-31T16:38:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:14 IST" name="AfterSuite" finished-at="2024-08-05T10:45:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
-      </class> <!-- aegis.TestScripts.add_department_in_departmentList -->
+      </class> <!-- aegis.TestScripts.machine_punching_and_punch_sync -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

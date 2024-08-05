@@ -17,6 +17,8 @@ public class empoyee_onboarding_in_employee extends baseTest {
 	
 	@Test
 	public void onBoarding() throws InterruptedException, IOException {
+	
+	//login with super admin profile of Sky-Tech organization to on board employee.	
 		
 	setupPage setup=new setupPage(listnerDriver);
 	employeeOnboardingPage onboard=new employeeOnboardingPage(listnerDriver);

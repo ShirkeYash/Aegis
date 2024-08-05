@@ -19,6 +19,8 @@ public class create_new_survey_in_employee_survey extends baseTest {
 	@Test
 	public void createNewSurvey() throws InterruptedException {
 		
+		//login with super admin profile from Sky-tech organization.
+		
 		setupPage setup=new setupPage(listnerDriver);
 		employeeSurveyPage empSurvey=new employeeSurveyPage(listnerDriver);
 		createNewSurveyPage createPage=new createNewSurveyPage(listnerDriver);

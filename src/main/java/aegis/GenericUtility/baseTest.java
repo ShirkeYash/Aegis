@@ -68,7 +68,7 @@ public class baseTest {
 	
 	
 	SignIn = new signInPage(driver);
-	SignIn.emailTextField.sendKeys(file.propertyFile("superadmin"));
+	SignIn.emailTextField.sendKeys(file.propertyFile("noble"));
 	//SignIn.emailTextField.sendKeys(username);
 	Thread.sleep(2000);
 	SignIn.passwordTextField.sendKeys(file.propertyFile("pass"));

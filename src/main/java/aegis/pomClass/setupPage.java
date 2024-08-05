@@ -11,6 +11,9 @@ public class setupPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	@FindBy(xpath = "//button[@aria-label='open drawer']")
+	public WebElement navigationButon;
+	
 	//select Profile
 	@FindBy(xpath = "//input[contains(@id,'react-select-2-input')]")
 	public WebElement profileField;
@@ -61,9 +64,41 @@ public class setupPage {
 	@FindBy(linkText = "Manage Department")
 	public WebElement manageDepartment;
 	
+	//payroll
+	@FindBy(xpath = "//h1[text()='Payroll']")
+	public WebElement payroll;
+	@FindBy(linkText = "Salary Management")
+	public WebElement salaryManagement;
+	
+	//machine punching
+	@FindBy(xpath = "//h1[text()='Machine Punching']")
+	public WebElement machinePunching;
+	@FindBy(linkText = "Punch Sync")
+	public WebElement punchSync;
+	
+	
+	
+	
+	public WebElement getMachinePunching() {
+		return machinePunching;
+	}
 
-	
-	
+	public WebElement getPunchSync() {
+		return punchSync;
+	}
+
+	public WebElement getNavigationButon() {
+		return navigationButon;
+	}
+
+	public WebElement getPayroll() {
+		return payroll;
+	}
+
+	public WebElement getSalaryManagement() {
+		return salaryManagement;
+	}
+
 	public WebElement getDepartment() {
 		return department;
 	}

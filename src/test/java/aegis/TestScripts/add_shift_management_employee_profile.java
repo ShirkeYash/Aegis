@@ -19,6 +19,8 @@ public class add_shift_management_employee_profile extends baseTest {
 	@Test
 	public void addShiftManagement() throws InterruptedException, IOException {
 		
+		//login employee profile from Sky-Tech organization.
+		
 		homePage home=new homePage(listnerDriver);
 		setupPage setup=new setupPage(listnerDriver);
 		shiftManagementPage shiftPage=new shiftManagementPage(listnerDriver);

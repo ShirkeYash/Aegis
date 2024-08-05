@@ -18,6 +18,8 @@ public class creating_new_organisation_with_basic_package extends baseTest {
 	@Test
 	public void addOrganisation() throws InterruptedException, IOException {
 		
+		//login with any super admin profile.
+		
 		setupPage setup=new setupPage(listnerDriver);
 		addOrganisationPage add=new addOrganisationPage(listnerDriver);
 		homePage home=new homePage(listnerDriver);

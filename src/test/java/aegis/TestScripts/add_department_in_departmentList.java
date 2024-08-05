@@ -20,6 +20,8 @@ public class add_department_in_departmentList extends baseTest {
 	@Test
 	public void addDepartment() throws IOException, InterruptedException {
 		
+		//login with super admin profile of Sky-Tech organization.
+		
 		setupPage setup=new setupPage(listnerDriver);
 		homePage home=new homePage(listnerDriver);
 		organisationListPage org=new organisationListPage(listnerDriver);

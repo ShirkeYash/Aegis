@@ -14,6 +14,9 @@ public class organisationListPage {
 	@FindBy(xpath = "//button[text()='Setup']")
 	public WebElement setupButton;
 	
+	//organisation Names:
+	@FindBy(xpath = "//h5[text()='Noble Hospitals']")
+	public WebElement nobleHospital;
 	@FindBy(xpath="(//button[text()='Setup'])[2]")
 	public WebElement nanoSlouSetupButton;
 
@@ -31,6 +34,14 @@ public class organisationListPage {
 	
 	
 	
+	public WebElement getNobleHospital() {
+		return nobleHospital;
+	}
+
+	public WebElement getNanoSlouSetupButton() {
+		return nanoSlouSetupButton;
+	}
+
 	public WebElement getNanaSlouSetupButton() {
 		return nanoSlouSetupButton;
 	}

@@ -18,6 +18,8 @@ public class edit_organisation_from_organisation_list extends baseTest {
 	@Test
 	public void editOrganisationDetails() throws IOException, InterruptedException {
 		
+		//Edits the organisation details from organisation list page.
+		
 		webdriverUtility web=new webdriverUtility();
 		homePage home=new homePage(listnerDriver);
 		organisationListPage org=new organisationListPage(listnerDriver);

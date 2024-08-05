@@ -63,6 +63,15 @@ public class employeeOnboardingPage {
 	@FindBy(xpath = "//button[text()='Next']")
 	public WebElement nextButton;
 	
+	@FindBy(xpath = "//span[text()='Excel Onboarding']")
+	public WebElement excelOnboardingCheckbox;
+	
+	@FindBy(xpath = "//a[text()='Download CSV Template']")
+	public WebElement downloadCsvTemplateButton;
+	
+	@FindBy(xpath = "//button[text()='Upload Excel File']")
+	public WebElement uploadExcelFileButton;
+	
 	//----------------------------------------------Second Page
 	@FindBy(name = "empId")
 	public WebElement empCodeTxtField;
@@ -114,8 +123,22 @@ public class employeeOnboardingPage {
 	
 	
 	//----------------------------------------------Getters
+	
+	
 	public WebElement getFirstnameTxtField() {
 		return firstnameTxtField;
+	}
+
+	public WebElement getExcelOnboardingCheckbox() {
+		return excelOnboardingCheckbox;
+	}
+
+	public WebElement getDownloadCsvTemplateButton() {
+		return downloadCsvTemplateButton;
+	}
+
+	public WebElement getUploadExcelFileButton() {
+		return uploadExcelFileButton;
 	}
 
 	public WebElement getLastNameTxtField() {

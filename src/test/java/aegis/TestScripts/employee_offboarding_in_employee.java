@@ -18,6 +18,8 @@ public class employee_offboarding_in_employee extends baseTest {
 	@Test
 	public void offboarding() throws IOException {
 		
+		//login with super admin profile of Sky-tech organization to off board employee.
+		
 		setupPage setup=new setupPage(listnerDriver);
 		organisationListPage org=new organisationListPage(listnerDriver);
 		employeeOffboardingPage offboard=new employeeOffboardingPage(listnerDriver);

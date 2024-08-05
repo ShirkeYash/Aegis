@@ -17,6 +17,8 @@ public class viewing_shift_request_from_employee extends baseTest {
 	@Test
 	public void viewNotificationOfShiftManagement() throws InterruptedException {
 		
+		//login with manager, hr, super admin profile to accept/reject shift notification of employee
+		
 		shiftNotificationPage shift=new shiftNotificationPage(listnerDriver);
 		notificationPage notification=new notificationPage(listnerDriver);
 		homePage home=new homePage(listnerDriver);
