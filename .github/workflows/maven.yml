@@ -67,6 +67,7 @@ jobs:
       with:
        name: Surefire tests
        path: target/surefire-reports/*.xml
+       reporter: junit
        report_suite: true
       
     - name: Publish Failsafe test results
@@ -74,4 +75,5 @@ jobs:
       with:
        name: Failsafe tests
        path: target/failsafe-reports/*.xml
+       reporter: junit
        report_suite: true
