@@ -45,13 +45,12 @@ jobs:
       run: mvn clean install -e
 
     - uses: actions/checkout@v4
-    - run: npm ci
     - run: npm test
 
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: success() || failure()
       with:
-       name: Jest Tests
-       path: reports/*.html
+       name: Java Tests
+       path: reports/*.xml
        reporter: java-junit
