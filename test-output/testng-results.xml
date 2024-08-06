@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-05T10:44:07 IST" name="Default suite" finished-at="2024-08-05T10:45:13 IST" duration-ms="66158">
+  <suite started-at="2024-08-06T12:18:57 IST" name="Default suite" finished-at="2024-08-06T12:20:02 IST" duration-ms="65468">
     <groups>
     </groups>
-    <test started-at="2024-08-05T10:44:07 IST" name="Default test" finished-at="2024-08-05T10:45:13 IST" duration-ms="66158">
-      <class name="aegis.TestScripts.machine_punching_and_punch_sync">
-        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:07 IST" name="BeforSuite" finished-at="2024-08-05T10:44:07 IST" duration-ms="49" status="PASS">
+    <test started-at="2024-08-06T12:18:57 IST" name="Default test" finished-at="2024-08-06T12:20:02 IST" duration-ms="65468">
+      <class name="aegis.TestScripts.edit_organisation_from_organisation_list">
+        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:18:57 IST" name="BeforSuite" finished-at="2024-08-06T12:18:57 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:07 IST" name="BeforeTest" finished-at="2024-08-05T10:44:09 IST" duration-ms="1777" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:18:57 IST" name="BeforeTest" finished-at="2024-08-06T12:18:59 IST" duration-ms="1968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:09 IST" name="BeforeClass" finished-at="2024-08-05T10:44:52 IST" duration-ms="43359" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:18:59 IST" name="BeforeClass" finished-at="2024-08-06T12:19:42 IST" duration-ms="43232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:53 IST" name="BeforeMethod" finished-at="2024-08-05T10:44:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:42 IST" name="BeforeMethod" finished-at="2024-08-06T12:19:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="punchSync()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:44:53 IST" name="punchSync" finished-at="2024-08-05T10:45:07 IST" duration-ms="14683" status="PASS">
+        <test-method signature="editOrganisationDetails()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:42 IST" name="editOrganisationDetails" finished-at="2024-08-06T12:19:56 IST" duration-ms="14174" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- punchSync -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:07 IST" name="AfterMethod" finished-at="2024-08-05T10:45:08 IST" duration-ms="792" status="PASS">
+        </test-method> <!-- editOrganisationDetails -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:56 IST" name="AfterMethod" finished-at="2024-08-06T12:19:57 IST" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:08 IST" name="AfterClass" finished-at="2024-08-05T10:45:11 IST" duration-ms="3228" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:57 IST" name="AfterClass" finished-at="2024-08-06T12:20:00 IST" duration-ms="3213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:11 IST" name="AfterTest" finished-at="2024-08-05T10:45:13 IST" duration-ms="2031" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:20:00 IST" name="AfterTest" finished-at="2024-08-06T12:20:02 IST" duration-ms="2007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.TestScripts.machine_punching_and_punch_sync@815b41f]" started-at="2024-08-05T10:45:14 IST" name="AfterSuite" finished-at="2024-08-05T10:45:14 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:20:02 IST" name="AfterSuite" finished-at="2024-08-06T12:20:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
-      </class> <!-- aegis.TestScripts.machine_punching_and_punch_sync -->
+      </class> <!-- aegis.TestScripts.edit_organisation_from_organisation_list -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
