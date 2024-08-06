@@ -65,11 +65,13 @@ jobs:
     - name: Publish Surefire test results
       uses: dorny/test-reporter@v1
       with:
+       name: Surefire tests
        path: target/surefire-reports/*.xml
        report_suite: true
       
     - name: Publish Failsafe test results
       uses: dorny/test-reporter@v1
       with:
+       name: Failsafe tests
        path: target/failsafe-reports/*.xml
        report_suite: true
