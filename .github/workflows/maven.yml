@@ -46,8 +46,7 @@ jobs:
 
     - name: Run integration tests with Maven
       run: mvn failsafe:integration-test failsafe:verify
-    - name: Publish test results
-      uses: actions/upload-artifact@v2
+    - name: Publish Failsafe test results
+      uses: mikepenz/action-junit-report@v3
       with:
-       name: integration-test-results
-       path: target/failsafe-reports/
+       path: '**/target/failsafe-reports/*.xml'
