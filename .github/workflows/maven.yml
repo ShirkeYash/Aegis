@@ -52,5 +52,5 @@ jobs:
       if: success() || failure()
       with:
        name: Java Tests
-       path: reports/*.xml
+       path: test-output/*.xml
        reporter: java-junit
