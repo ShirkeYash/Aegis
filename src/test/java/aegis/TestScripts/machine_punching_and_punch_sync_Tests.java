@@ -21,7 +21,7 @@ import aegis.pomClass.organisationListPage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class machine_punching_and_punch_sync extends baseTest {
+public class machine_punching_and_punch_sync_Tests extends baseTest {
 
 	@Test
 	public void punchSync() throws AWTException, IOException, InterruptedException {

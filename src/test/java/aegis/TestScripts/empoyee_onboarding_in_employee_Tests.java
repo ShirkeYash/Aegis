@@ -13,7 +13,7 @@ import aegis.pomClass.organisationListPage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class empoyee_onboarding_in_employee extends baseTest {
+public class empoyee_onboarding_in_employee_Tests extends baseTest {
 	
 	@Test
 	public void onBoarding() throws InterruptedException, IOException {

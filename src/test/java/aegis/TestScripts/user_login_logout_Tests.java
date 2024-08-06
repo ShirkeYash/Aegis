@@ -12,7 +12,7 @@ import aegis.GenericUtility.webdriverUtility;
 import aegis.pomClass.homePage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class user_login_logout extends baseTest {
+public class user_login_logout_Tests extends baseTest {
 	
 	@Test
 	public void loginAndLogout() throws IOException, InterruptedException {

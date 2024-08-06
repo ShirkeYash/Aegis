@@ -12,7 +12,7 @@ import aegis.pomClass.organisationListPage;
 import aegis.pomClass.shiftNotificationPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class viewing_shift_request_from_employee extends baseTest {
+public class viewing_shift_request_from_employee_Tests extends baseTest {
 
 	@Test
 	public void viewNotificationOfShiftManagement() throws InterruptedException {

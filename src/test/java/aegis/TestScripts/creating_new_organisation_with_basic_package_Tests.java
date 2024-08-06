@@ -14,7 +14,7 @@ import aegis.pomClass.homePage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class creating_new_organisation_with_basic_package extends baseTest {
+public class creating_new_organisation_with_basic_package_Tests extends baseTest {
 	@Test
 	public void addOrganisation() throws InterruptedException, IOException {
 		

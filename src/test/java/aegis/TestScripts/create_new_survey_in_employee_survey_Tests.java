@@ -14,7 +14,7 @@ import aegis.pomClass.organisationListPage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class create_new_survey_in_employee_survey extends baseTest {
+public class create_new_survey_in_employee_survey_Tests extends baseTest {
 	
 	@Test
 	public void createNewSurvey() throws InterruptedException {

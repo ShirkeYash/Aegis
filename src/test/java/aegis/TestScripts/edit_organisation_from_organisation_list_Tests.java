@@ -13,7 +13,7 @@ import aegis.pomClass.homePage;
 import aegis.pomClass.organisationListPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class edit_organisation_from_organisation_list extends baseTest {
+public class edit_organisation_from_organisation_list_Tests extends baseTest {
 
 	@Test
 	public void editOrganisationDetails() throws IOException, InterruptedException {

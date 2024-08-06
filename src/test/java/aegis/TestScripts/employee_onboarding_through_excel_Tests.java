@@ -20,7 +20,7 @@ import aegis.pomClass.organisationListPage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class employee_onboarding_through_excel extends baseTest {
+public class employee_onboarding_through_excel_Tests extends baseTest {
 
 	@Test
 	public void excelOnboarding() throws InterruptedException, IOException, AWTException {

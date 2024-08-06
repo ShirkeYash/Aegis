@@ -16,7 +16,7 @@ import aegis.pomClass.salaryManagementPage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class creates_salary_management_submit_salary_management extends baseTest {
+public class creates_salary_management_submit_salary_management_Tests extends baseTest {
 
 	@Test
 	public void salaryManagement() throws InterruptedException, IOException {

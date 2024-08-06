@@ -14,7 +14,7 @@ import aegis.pomClass.setupPage;
 import aegis.pomClass.shiftManagementPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class add_shift_management_employee_profile extends baseTest {
+public class add_shift_management_employee_profile_Tests extends baseTest {
 	
 	@Test
 	public void addShiftManagement() throws InterruptedException, IOException {

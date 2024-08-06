@@ -13,7 +13,7 @@ import aegis.pomClass.organisationListPage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class employee_offboarding_in_employee extends baseTest {
+public class employee_offboarding_in_employee_Tests extends baseTest {
 	
 	@Test
 	public void offboarding() throws IOException {

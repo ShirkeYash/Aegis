@@ -15,7 +15,7 @@ import aegis.pomClass.organisationListPage;
 import aegis.pomClass.setupPage;
 
 @Listeners(aegis.GenericUtility.listners.class)
-public class add_department_in_departmentList extends baseTest {
+public class add_department_in_departmentList_Tests extends baseTest {
 
 	@Test
 	public void addDepartment() throws IOException, InterruptedException {
