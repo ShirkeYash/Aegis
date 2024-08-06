@@ -51,10 +51,10 @@ jobs:
       uses: scacap/action-surefire-report@v1
       if: always()
       with:
-       reports_paths: '**/target/surefire-reports/TEST-*.xml'
+       report_paths: '**/target/surefire-reports/TEST-*.xml'
       
     - name: Publish Failsafe test results
       uses: scacap/action-surefire-report@v1
       if: always()
       with:
-       reports_paths: '**/target/failsafe-reports/TEST-*.xml'
+       report_paths: '**/target/failsafe-reports/TEST-*.xml'
