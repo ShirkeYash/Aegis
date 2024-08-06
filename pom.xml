@@ -93,9 +93,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
-					<includes>
-						<include>**/*TEST.java</include>
-					</includes>
+					<reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
 				</configuration>
 			</plugin>
 			
@@ -112,9 +110,7 @@
                     </execution>
                 </executions>
 				<configuration>
-					<includes>
-						<include>**/*IT.java</include>
-					</includes>
+					<reportsDirectory>${project.build.directory}/failsafe-reports</reportsDirectory>
 				</configuration>
             </plugin>
 			
