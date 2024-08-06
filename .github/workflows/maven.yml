@@ -51,11 +51,11 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
        name: surefire-reports
-       path: test-output/junitreports/
+       path: test-output/
     - name: Report test results
       if: always()
       uses: dorny/test-reporter@v1.9.1
       with:
        name: Test Results
-       path: test-output/junitreports/*.xml
+       path: test-output/*.xml
        reporter: java-junit
