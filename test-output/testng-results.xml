@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T12:18:57 IST" name="Default suite" finished-at="2024-08-06T12:20:02 IST" duration-ms="65468">
+  <suite started-at="2024-08-06T14:53:37 IST" name="Default suite" finished-at="2024-08-06T14:54:42 IST" duration-ms="64285">
     <groups>
     </groups>
-    <test started-at="2024-08-06T12:18:57 IST" name="Default test" finished-at="2024-08-06T12:20:02 IST" duration-ms="65468">
+    <test started-at="2024-08-06T14:53:37 IST" name="Default test" finished-at="2024-08-06T14:54:42 IST" duration-ms="64285">
       <class name="aegis.TestScripts.edit_organisation_from_organisation_list">
-        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:18:57 IST" name="BeforSuite" finished-at="2024-08-06T12:18:57 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:53:37 IST" name="BeforSuite" finished-at="2024-08-06T14:53:37 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:18:57 IST" name="BeforeTest" finished-at="2024-08-06T12:18:59 IST" duration-ms="1968" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:53:37 IST" name="BeforeTest" finished-at="2024-08-06T14:53:39 IST" duration-ms="1628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:18:59 IST" name="BeforeClass" finished-at="2024-08-06T12:19:42 IST" duration-ms="43232" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:53:39 IST" name="BeforeClass" finished-at="2024-08-06T14:54:22 IST" duration-ms="43314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:42 IST" name="BeforeMethod" finished-at="2024-08-06T12:19:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:54:22 IST" name="BeforeMethod" finished-at="2024-08-06T14:54:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="editOrganisationDetails()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:42 IST" name="editOrganisationDetails" finished-at="2024-08-06T12:19:56 IST" duration-ms="14174" status="PASS">
+        <test-method signature="editOrganisationDetails()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:54:22 IST" name="editOrganisationDetails" finished-at="2024-08-06T14:54:36 IST" duration-ms="13116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editOrganisationDetails -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:56 IST" name="AfterMethod" finished-at="2024-08-06T12:19:57 IST" duration-ms="665" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:54:36 IST" name="AfterMethod" finished-at="2024-08-06T14:54:36 IST" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:19:57 IST" name="AfterClass" finished-at="2024-08-06T12:20:00 IST" duration-ms="3213" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:54:36 IST" name="AfterClass" finished-at="2024-08-06T14:54:40 IST" duration-ms="3287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:20:00 IST" name="AfterTest" finished-at="2024-08-06T12:20:02 IST" duration-ms="2007" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:54:40 IST" name="AfterTest" finished-at="2024-08-06T14:54:42 IST" duration-ms="2006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T12:20:02 IST" name="AfterSuite" finished-at="2024-08-06T12:20:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.TestScripts.edit_organisation_from_organisation_list@815b41f]" started-at="2024-08-06T14:54:42 IST" name="AfterSuite" finished-at="2024-08-06T14:54:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
