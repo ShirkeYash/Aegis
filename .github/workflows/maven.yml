@@ -45,12 +45,11 @@ jobs:
       run: mvn clean install -e
 
     - uses: actions/checkout@v4
-    - run: npm test
 
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: success() || failure()
       with:
        name: Java Tests
-       path: test-output/*.xml
+       path: test-output/testng-results.xml
        reporter: java-junit
