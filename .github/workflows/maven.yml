@@ -63,11 +63,13 @@ jobs:
        path: target/failsafe-reports/*.xml   
 
     - name: Publish Surefire test results
-      uses: actions/junit-report@v3
+      uses: dorny/test-reporter@v1
       with:
-       report_paths: '**/target/surefire-reports/*.xml'
+       path: target/surefire-reports/*.xml
+       report_suite: true
       
     - name: Publish Failsafe test results
-      uses: actions/junit-report@v3
+      uses: dorny/test-reporter@v1
       with:
-       report_paths: '**/target/failsafe-reports/*.xml'
+       path: target/failsafe-reports/*.xml
+       report_suite: true
