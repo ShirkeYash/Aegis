@@ -50,25 +50,11 @@ jobs:
     - name: Run integration tests with Maven failsafe
       run: mvn failsafe:integration-test failsafe:verify
 
-    - name: Upload surefire test results
-      uses: actions/upload-artifact@v3
-      with:
-       name: surefire-results
-       path: target/surefire-reports/*.xml
-
     - name: Upload failsafe test results
       uses: actions/upload-artifact@v3
       with:
        name: failsafe-results
-       path: target/failsafe-reports/*.xml   
-
-    - name: Publish Surefire test results
-      uses: dorny/test-reporter@v1
-      with:
-       name: Surefire tests
-       path: target/surefire-reports/*.xml
-       reporter: java-junit
-       report_suite: true
+       path: target/failsafe-reports/*.xml
       
     - name: Publish Failsafe test results
       uses: dorny/test-reporter@v1
