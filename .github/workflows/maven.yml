@@ -52,7 +52,7 @@ jobs:
        path: target/failsafe-reports/*.xml
       
     - name: Publish Failsafe test results
-      uses: dorny/test-reporter@v1
+      uses: dorny/test-reporter@v3
       with:
        name: Failsafe tests
        path: target/failsafe-reports/*.xml
