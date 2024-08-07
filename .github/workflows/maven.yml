@@ -34,18 +34,3 @@ jobs:
 
     - name: Build with maven
       run: mvn test
-
-    - name: validate Gradle Wrapper
-      uses: gradle/wrapper-validation-action@v3
-
-    - name: Execute Gradle Test
-      run: ./gradlew test
-
-    - name: Report
-      uses: dorny/test-reporter@v1
-      if: always()
-      with:
-       name: Gradle Tests
-       path: 'target/surefire-reports/*.xml'
-       reporter: java-junit
-       fail-on-error: true
