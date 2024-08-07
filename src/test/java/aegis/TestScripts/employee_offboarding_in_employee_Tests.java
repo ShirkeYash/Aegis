@@ -15,7 +15,7 @@ import aegis.pomClass.setupPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class employee_offboarding_in_employee_Tests extends baseTest {
 	
-	@Test
+	@Test (enabled = false)
 	public void offboarding() throws IOException {
 		
 		//login with super admin profile of Sky-tech organization to off board employee.

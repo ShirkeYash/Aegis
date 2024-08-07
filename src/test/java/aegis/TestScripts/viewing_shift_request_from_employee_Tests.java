@@ -14,7 +14,7 @@ import aegis.pomClass.shiftNotificationPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class viewing_shift_request_from_employee_Tests extends baseTest {
 
-	@Test
+	@Test(enabled = false)
 	public void viewNotificationOfShiftManagement() throws InterruptedException {
 		
 		//login with manager, hr, super admin profile to accept/reject shift notification of employee

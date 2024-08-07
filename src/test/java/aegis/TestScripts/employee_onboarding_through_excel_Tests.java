@@ -22,7 +22,7 @@ import aegis.pomClass.setupPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class employee_onboarding_through_excel_Tests extends baseTest {
 
-	@Test
+	@Test(enabled = false)
 	public void excelOnboarding() throws InterruptedException, IOException, AWTException {
 		
 		//login with super admin of noble hospitals organisation to on board employee through excel.

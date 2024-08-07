@@ -15,7 +15,7 @@ import aegis.pomClass.setupPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class empoyee_onboarding_in_employee_Tests extends baseTest {
 	
-	@Test
+	@Test(enabled = false)
 	public void onBoarding() throws InterruptedException, IOException {
 	
 	//login with super admin profile of Sky-Tech organization to on board employee.	

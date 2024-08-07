@@ -11,7 +11,7 @@ public class homePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//div[contains(@class,'MuiAvatar-root')]")
+	@FindBy(id = "basic-button")
 	public WebElement profileIconButton;
 	
 	@FindBy(xpath = "//div[text()=' Log out']")

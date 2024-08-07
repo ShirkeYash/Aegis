@@ -15,7 +15,7 @@ import aegis.pomClass.organisationListPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class edit_organisation_from_organisation_list_Tests extends baseTest {
 
-	@Test
+	@Test (priority = 2)
 	public void editOrganisationDetails() throws IOException, InterruptedException {
 		
 		//Edits the organisation details from organisation list page.

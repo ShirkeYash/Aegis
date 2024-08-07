@@ -18,7 +18,7 @@ import aegis.pomClass.setupPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class creates_salary_management_submit_salary_management_Tests extends baseTest {
 
-	@Test
+	@Test(priority = 3)
 	public void salaryManagement() throws InterruptedException, IOException {
 		
 		//login with super admin from noble hospitals organizations.

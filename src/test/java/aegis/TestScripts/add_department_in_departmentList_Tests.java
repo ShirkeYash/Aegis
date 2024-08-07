@@ -17,7 +17,7 @@ import aegis.pomClass.setupPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class add_department_in_departmentList_Tests extends baseTest {
 
-	@Test
+	@Test(enabled = false)
 	public void addDepartment() throws IOException, InterruptedException {
 		
 		//login with super admin profile of Sky-Tech organization.

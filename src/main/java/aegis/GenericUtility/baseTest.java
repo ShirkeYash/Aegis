@@ -13,11 +13,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
 import aegis.pomClass.homePage;
 import aegis.pomClass.signInPage;
 
@@ -27,9 +22,6 @@ public class baseTest {
 	public static WebDriver listnerDriver;
 	public signInPage SignIn;
 	public homePage HomePage;
-	public ExtentSparkReporter spark;
-	public ExtentReports report;
-	public ExtentTest test;
 	public fileUtility file=new fileUtility();
 	public javaUtility java=new javaUtility();
 	
@@ -41,10 +33,6 @@ public class baseTest {
 	@BeforeTest
 	public void BeforeTest() {
 		System.out.println("Before Test");
-		spark = new ExtentSparkReporter("./reports/testreports"+java.localdateTime()+".html");
-		report = new ExtentReports();
-		report.attachReporter(spark);
-		test = report.createTest("Demo");
 	}
 	
 	@BeforeClass
@@ -54,10 +42,8 @@ public class baseTest {
 	
 	if(browser.contains("chrome")) {
 		driver = new ChromeDriver();
-		test.log(Status.PASS, "Browser launched");
 	}else {
 		System.out.println("Enter valid browser");
-		test.log(Status.FAIL, "Invalid Browser Details");
 	}
 	
 	listnerDriver = driver;
@@ -68,11 +54,9 @@ public class baseTest {
 	
 	
 	SignIn = new signInPage(driver);
-	SignIn.emailTextField.sendKeys(file.propertyFile("superadmin"));
-	//SignIn.emailTextField.sendKeys(username);
+	SignIn.emailTextField.sendKeys(file.propertyFile("noble"));
 	Thread.sleep(2000);
 	SignIn.passwordTextField.sendKeys(file.propertyFile("pass"));
-	//SignIn.passwordTextField.sendKeys(pass);
 	Thread.sleep(2000);
 	SignIn.LoginButton.click();
 	Thread.sleep(2000);
@@ -103,7 +87,6 @@ public class baseTest {
 	@AfterTest
 	public void AfterTest() {
 		System.out.println("After Test");
-		report.flush();
 	}
 	
 	@AfterSuite

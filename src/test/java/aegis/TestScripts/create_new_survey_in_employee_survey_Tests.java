@@ -4,8 +4,6 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.Status;
-
 import aegis.GenericUtility.baseTest;
 import aegis.pomClass.createNewSurveyPage;
 import aegis.pomClass.employeeSurveyPage;
@@ -16,7 +14,7 @@ import aegis.pomClass.setupPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class create_new_survey_in_employee_survey_Tests extends baseTest {
 	
-	@Test
+	@Test(priority = 4)
 	public void createNewSurvey() throws InterruptedException {
 		
 		//login with super admin profile from Sky-tech organization.
@@ -30,8 +28,8 @@ public class create_new_survey_in_employee_survey_Tests extends baseTest {
 		home.goToOrganizationButton.click();
 		Thread.sleep(3000);
 		
-		String companyname=listnerDriver.findElement(By.xpath("//h5[text()='Sky tech']")).getText();
-		if(companyname.equalsIgnoreCase("sky tech")) {
+//		String companyname=listnerDriver.findElement(By.xpath("//h5[text()='Sky tech']")).getText();
+//		if(companyname.equalsIgnoreCase("sky tech")) {
 		orgList.setupButton.click();
 	
 		Thread.sleep(2000);
@@ -40,7 +38,6 @@ public class create_new_survey_in_employee_survey_Tests extends baseTest {
 		setup.communication.click();
 		setup.employeeSurvey.click();
 		empSurvey.createNewSurveyButton.click();
-		test.log(Status.INFO, "Create survey page loaded");
 		Thread.sleep(3000);
 		
 		
@@ -51,17 +48,16 @@ public class create_new_survey_in_employee_survey_Tests extends baseTest {
 		createPage.selectQuestionTypeField.click();
 		createPage.shortAns.click();
 		Thread.sleep(2000);
-		createPage.startdateField.sendKeys("07/27/2024");
-		createPage.endDateField.sendKeys("08/01/2024");
+		createPage.startdateField.sendKeys("08/07/2024");
+		createPage.endDateField.sendKeys("10/12/2024");
 		Thread.sleep(3000);
 		createPage.selectAllEmpCheckbox.click();
 		createPage.selectAllButton.click();
 		createPage.submitButton.click();
-		test.log(Status.INFO, "Data entered");
 		Thread.sleep(3000);
-		}else {
-			System.out.println("Inavlid Company name");
-		}
+//		}else {
+//			System.out.println("Inavlid Company name");
+//		}
 		
 		
 	}

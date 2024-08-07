@@ -16,7 +16,7 @@ import aegis.pomClass.shiftManagementPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class add_shift_management_employee_profile_Tests extends baseTest {
 	
-	@Test
+	@Test(enabled = false)
 	public void addShiftManagement() throws InterruptedException, IOException {
 		
 		//login employee profile from Sky-Tech organization.

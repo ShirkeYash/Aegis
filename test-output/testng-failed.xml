@@ -3,19 +3,58 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="aegis.TestScripts.add_shift_management_employee_profile">
+      <class name="aegis.TestScripts.edit_organisation_from_organisation_list_Tests">
         <methods>
           <include name="BeforSuite"/>
-          <include name="addShiftManagement"/>
+          <include name="BeforeTest"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterTest"/>
+          <include name="AfterClass"/>
+          <include name="editOrganisationDetails"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- aegis.TestScripts.edit_organisation_from_organisation_list_Tests -->
+      <class name="aegis.TestScripts.creating_new_organisation_with_basic_package_Tests">
+        <methods>
+          <include name="BeforSuite"/>
           <include name="BeforeTest"/>
           <include name="BeforeMethod"/>
           <include name="AfterTest"/>
           <include name="AfterClass"/>
           <include name="AfterMethod"/>
           <include name="BeforeClass"/>
+          <include name="addOrganisation"/>
           <include name="AfterSuite"/>
         </methods>
-      </class> <!-- aegis.TestScripts.add_shift_management_employee_profile -->
+      </class> <!-- aegis.TestScripts.creating_new_organisation_with_basic_package_Tests -->
+      <class name="aegis.TestScripts.create_new_survey_in_employee_survey_Tests">
+        <methods>
+          <include name="BeforSuite"/>
+          <include name="BeforeTest"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterTest"/>
+          <include name="AfterClass"/>
+          <include name="AfterMethod"/>
+          <include name="createNewSurvey"/>
+          <include name="BeforeClass"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- aegis.TestScripts.create_new_survey_in_employee_survey_Tests -->
+      <class name="aegis.TestScripts.creates_salary_management_submit_salary_management_Tests">
+        <methods>
+          <include name="BeforSuite"/>
+          <include name="BeforeTest"/>
+          <include name="AfterTest"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterClass"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="AfterSuite"/>
+          <include name="salaryManagement"/>
+        </methods>
+      </class> <!-- aegis.TestScripts.creates_salary_management_submit_salary_management_Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

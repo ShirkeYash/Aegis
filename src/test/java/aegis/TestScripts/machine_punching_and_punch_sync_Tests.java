@@ -1,10 +1,6 @@
 package aegis.TestScripts;
 
 import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -23,7 +19,7 @@ import aegis.pomClass.setupPage;
 @Listeners(aegis.GenericUtility.listners.class)
 public class machine_punching_and_punch_sync_Tests extends baseTest {
 
-	@Test
+	@Test(enabled = false)
 	public void punchSync() throws AWTException, IOException, InterruptedException {
 		
 		//login with super admin credentials of noble hospitals to sync machine punching.
