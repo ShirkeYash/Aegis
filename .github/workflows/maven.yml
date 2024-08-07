@@ -32,22 +32,17 @@ jobs:
     - name: Build with Maven
       run: mvn clean install -e
 
-    - name: Run unit tests with maven surefire
-      run: mvn test
+    - name: validate Gradle Wrapper
+      uses: gradle/wrapper-validation-action@v1
 
-    - name: Run integration tests with Maven failsafe
-      run: mvn failsafe:integration-test failsafe:verify
+    - name: Execute Gradle Test
+      run: ./gradlew test
 
-    - name: Upload failsafe test results
-      uses: actions/upload-artifact@v3
-      with:
-       name: failsafe-results
-       path: target/failsafe-reports/*.xml
-      
-    - name: Publish Failsafe test results
+    - name: Report
       uses: dorny/test-reporter@v1
+      if: always()
       with:
-       name: Failsafe tests
-       path: target/failsafe-reports/*.xml
+       name: Gradle Tests
+       path: 'target/*.xml'
        reporter: java-junit
-       report_suite: true
+       fail-on-error: true
