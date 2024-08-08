@@ -25,6 +25,13 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+
+    - name: Install Google Chrome
+      run: |
+        $chrome_installer = "C:\chrome_installer.exe"
+        Invoke-WebRequest -Uri "https://dl.google.com/chrome/install/standalonesetup64.exe" -OutFile $chrome_installer
+        Start-Process -FilePath $chrome_installer -ArgumentList "/silent /install" -Wait
+        Remove-Item -Force $chrome_installer    
         
     - name: Build with Maven
       run: mvn -B package --file pom.xml
@@ -34,3 +41,36 @@ jobs:
 
     - name: Build with maven
       run: mvn test
+    - name: Run unit tests with maven surefire
+      run: mvn test
+
+    - name: Run integration tests with Maven failsafe
+      run: mvn failsafe:integration-test failsafe:verify
+
+    - name: Upload surefire test results
+      uses: actions/upload-artifact@v3
+      with:
+       name: surefire-results
+       path: target/surefire-reports/*.xml
+
+    - name: Upload failsafe test results
+      uses: actions/upload-artifact@v3
+      with:
+       name: failsafe-results
+       path: target/failsafe-reports/*.xml   
+
+    - name: Publish Surefire test results
+      uses: dorny/test-reporter@v1
+      with:
+       name: Surefire tests
+       path: target/surefire-reports/*.xml
+       reporter: java-junit
+       report_suite: true
+      
+    - name: Publish Failsafe test results
+      uses: dorny/test-reporter@v1
+      with:
+       name: Failsafe tests
+       path: target/failsafe-reports/*.xml
+       reporter: java-junit
+       report_suite: true
