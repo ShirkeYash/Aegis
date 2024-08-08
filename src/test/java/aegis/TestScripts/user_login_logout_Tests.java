@@ -13,7 +13,7 @@ public class user_login_logout_Tests extends baseTest {
 	@Test(priority = 0)
 	public void loginAndLogout() throws IOException, InterruptedException {
 	
-		System.out.println("Login Logout Successfully Done-");
+		System.out.println("Login Logout Test script");
 
 		Thread.sleep(3000);
 	}

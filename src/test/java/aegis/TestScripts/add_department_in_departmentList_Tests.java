@@ -41,9 +41,9 @@ public class add_department_in_departmentList_Tests extends baseTest {
 		
 		add.departmentNameTxtField.sendKeys(file.allOtherData("deptname"));
 		add.departmentLocationTxtField.click();
-		add.departmentLocationTxtField.sendKeys(file.allOtherData("deptloc")+Keys.ENTER);
-		add.departmentLocationTxtField.sendKeys(Keys.ENTER);
+		add.departmentLocationTxtField.sendKeys("bengaluru"+Keys.ENTER);
 		Thread.sleep(2000);
+		add.nextButton.click();
 		add.nextButton.click();
 		add.departmentIdTxtField.sendKeys(file.allOtherData("deptid"));
 		add.deptCostCenterId.sendKeys(file.allOtherData("deptcostid"));
@@ -58,6 +58,8 @@ public class add_department_in_departmentList_Tests extends baseTest {
 		//setup.department.click();
 		setup.manageDepartment.click();
 		web.webPageScreenshot(listnerDriver);
+		
+		System.out.println("Add department Test script");
 		
 	}
 	

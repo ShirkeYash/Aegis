@@ -59,6 +59,8 @@ public class creating_new_organisation_with_basic_package_Tests extends baseTest
 		
 		add.submitButton.click();
 		
+		System.out.println("Creating new organization Test script");
+		
 		
 	}
 

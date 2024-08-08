@@ -40,6 +40,8 @@ public class employee_offboarding_in_employee_Tests extends baseTest {
 		web.webPageScreenshot(listnerDriver);
 		offboard.redDeleteButton.click();
 		
+		System.out.println("Employee offboarding Test script");
+		
 	}
 
 }

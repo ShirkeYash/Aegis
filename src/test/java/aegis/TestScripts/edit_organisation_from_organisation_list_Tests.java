@@ -40,6 +40,7 @@ public class edit_organisation_from_organisation_list_Tests extends baseTest {
 		add.submitButton.click();
 		Thread.sleep(3000);
 		listnerDriver.navigate().back();
+		System.out.println("Edit Organization Test script");
 		
 	}
 	

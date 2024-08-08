@@ -60,6 +60,8 @@ public class employee_onboarding_through_excel_Tests extends baseTest {
 		robot.keyPress(KeyEvent.VK_ENTER);
 		Thread.sleep(5000);
 		
+		System.out.println("Employee onboarding through excel Test script");
+		
 	}
 	
 }

@@ -51,6 +51,8 @@ public class empoyee_onboarding_in_employee_Tests extends baseTest {
 	web.webPageScreenshot(listnerDriver);
 	onboard.nextButton.click();
 	Thread.sleep(3000);
+	
+	System.out.println("Employee onboarding Test Script");
 		
 	}
 

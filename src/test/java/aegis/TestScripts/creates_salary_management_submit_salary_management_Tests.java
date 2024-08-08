@@ -57,6 +57,8 @@ public class creates_salary_management_submit_salary_management_Tests extends ba
 			web.webPageScreenshot(listnerDriver);
 			salary.submitButton.click();
 			
+			System.out.println("Salary management Test Script");
+			
 		}else {
 			System.out.println("Invalid organisation name");
 		}

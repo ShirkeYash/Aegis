@@ -54,6 +54,9 @@ public class create_new_survey_in_employee_survey_Tests extends baseTest {
 		createPage.selectAllButton.click();
 		createPage.submitButton.click();
 		Thread.sleep(3000);
+		
+		System.out.println("Create new survey Test script");
+		
 //		}else {
 //			System.out.println("Inavlid Company name");
 //		}

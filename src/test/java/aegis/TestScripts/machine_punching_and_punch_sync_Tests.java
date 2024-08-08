@@ -71,6 +71,8 @@ public class machine_punching_and_punch_sync_Tests extends baseTest {
 			Thread.sleep(3000);
 			emp.cancleButton.click();
 			
+			System.out.println("Machine punching Test script");
+			
 		}else {
 			System.out.println("Organization not found");
 		}	

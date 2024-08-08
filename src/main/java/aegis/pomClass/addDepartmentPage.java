@@ -17,7 +17,7 @@ public class addDepartmentPage {
 	@FindBy(name = "dept_name")
 	public WebElement departmentNameTxtField;
 	
-	@FindBy(xpath = "(//div[@class=' css-19bb58m'])[1]")
+	@FindBy(xpath = "(//input[@aria-autocomplete='list'])[1]")
 	public WebElement departmentLocationTxtField;
 	
 	@FindBy(name = "dept_description")
