@@ -44,7 +44,7 @@ public class addOrganisationPage {
 	@FindBy(xpath = "//button[contains(@class,'MuiButtonBase-root MuiButton')]")
 	public WebElement nextButton;
 	
-	@FindBy(xpath = "(//button[text()='Get Started'])[1]")
+	@FindBy(xpath = "(//button[@type='submit'])[1]")
 	public WebElement getStartedButton;
 	
 	@FindBy(name = "count")

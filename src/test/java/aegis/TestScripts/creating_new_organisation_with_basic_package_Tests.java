@@ -1,6 +1,7 @@
 package aegis.TestScripts;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Listeners;
@@ -20,7 +21,8 @@ public class creating_new_organisation_with_basic_package_Tests extends baseTest
 		
 		setupPage setup=new setupPage(listnerDriver);
 		addOrganisationPage add=new addOrganisationPage(listnerDriver);
-		homePage home=new homePage(listnerDriver);		
+		homePage home=new homePage(listnerDriver);
+		listnerDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		
 		Thread.sleep(3000);
 		home.navigationButon.click();
@@ -41,9 +43,9 @@ public class creating_new_organisation_with_basic_package_Tests extends baseTest
 		add.location.sendKeys(Keys.ENTER);
 		add.checkBox.click();
 		add.nextButton.click();
-		add.nextButton.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
+		add.getStartedButton.click();
 		add.getStartedButton.click();
 		Thread.sleep(2000);
 		

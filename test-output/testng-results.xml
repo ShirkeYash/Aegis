@@ -1,121 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-08T10:39:38 IST" name="Default suite" finished-at="2024-08-08T10:39:41 IST" duration-ms="3245">
+  <suite started-at="2024-08-08T14:44:53 IST" name="Default suite" finished-at="2024-08-08T14:45:57 IST" duration-ms="64716">
     <groups>
     </groups>
-    <test started-at="2024-08-08T10:39:38 IST" name="Default test" finished-at="2024-08-08T10:39:41 IST" duration-ms="3245">
-      <class name="aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests">
-        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:38 IST" name="BeforSuite" finished-at="2024-08-08T10:39:38 IST" duration-ms="49" status="PASS">
+    <test started-at="2024-08-08T14:44:53 IST" name="Default test" finished-at="2024-08-08T14:45:57 IST" duration-ms="64716">
+      <class name="aegis.TestScripts.creating_new_organisation_with_basic_package_Tests">
+        <test-method is-config="true" signature="BeforSuite()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:44:52 IST" name="BeforSuite" finished-at="2024-08-08T14:44:53 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:38 IST" name="BeforeTest" finished-at="2024-08-08T10:39:38 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:44:53 IST" name="BeforeTest" finished-at="2024-08-08T14:44:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:38 IST" name="BeforeClass" finished-at="2024-08-08T10:39:41 IST" duration-ms="3031" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "aegis.GenericUtility.baseTest.profile" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "aegis.GenericUtility.baseTest.profile" is null
-at aegis.GenericUtility.baseTest.BeforeClass(baseTest.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:44:53 IST" name="BeforeClass" finished-at="2024-08-08T14:45:34 IST" duration-ms="41276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:41 IST" name="BeforeMethod" finished-at="2024-08-08T10:39:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:45:34 IST" name="BeforeMethod" finished-at="2024-08-08T14:45:34 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="addShiftManagement()[pri:1, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:41 IST" name="addShiftManagement" finished-at="2024-08-08T10:39:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "aegis.GenericUtility.baseTest.profile" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "aegis.GenericUtility.baseTest.profile" is null
-at aegis.GenericUtility.baseTest.BeforeClass(baseTest.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="addOrganisation()[pri:1, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:45:34 IST" name="addOrganisation" finished-at="2024-08-08T14:45:53 IST" duration-ms="19201" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addShiftManagement -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:41 IST" name="AfterMethod" finished-at="2024-08-08T10:39:41 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- addOrganisation -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:45:53 IST" name="AfterMethod" finished-at="2024-08-08T14:45:54 IST" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:41 IST" name="AfterClass" finished-at="2024-08-08T10:39:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:45:54 IST" name="AfterClass" finished-at="2024-08-08T14:45:57 IST" duration-ms="3229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:41 IST" name="AfterTest" finished-at="2024-08-08T10:39:41 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:45:57 IST" name="AfterTest" finished-at="2024-08-08T14:45:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests@6a6cb05c]" started-at="2024-08-08T10:39:41 IST" name="AfterSuite" finished-at="2024-08-08T10:39:41 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:aegis.TestScripts.creating_new_organisation_with_basic_package_Tests@6a6cb05c]" started-at="2024-08-08T14:45:57 IST" name="AfterSuite" finished-at="2024-08-08T14:45:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
-      </class> <!-- aegis.Flow.TestScripts.add_shift_management_employee_profile_Tests -->
+      </class> <!-- aegis.TestScripts.creating_new_organisation_with_basic_package_Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
