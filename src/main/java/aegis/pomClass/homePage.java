@@ -11,7 +11,7 @@ public class homePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(id = "basic-button")
+	@FindBy(xpath = "(//*[local-name()='svg' and @data-testid='PersonIcon'])[1]")
 	public WebElement profileIconButton;
 	
 	@FindBy(xpath = "//div[text()=' Log out']")

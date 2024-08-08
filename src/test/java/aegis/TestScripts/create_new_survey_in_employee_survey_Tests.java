@@ -1,6 +1,5 @@
 package aegis.TestScripts;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 

@@ -29,38 +29,39 @@ public class baseTest {
 	public void BeforSuite() {
 	System.out.println("Before Suite");
 	}
-	
+
 	@BeforeTest
 	public void BeforeTest() {
 		System.out.println("Before Test");
+		
 	}
 	
 	@BeforeClass
 	public void BeforeClass() throws IOException, InterruptedException {
-	String url = file.propertyFile("url");
-	String browser = file.propertyFile("browser");
 	
-	if(browser.contains("chrome")) {
-		driver = new ChromeDriver();
-	}else {
-		System.out.println("Enter valid browser");
-	}
-	
-	listnerDriver = driver;
-	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-	
-	driver.get(url);
-	
-	
-	SignIn = new signInPage(driver);
-	SignIn.emailTextField.sendKeys(file.propertyFile("noble"));
-	Thread.sleep(2000);
-	SignIn.passwordTextField.sendKeys(file.propertyFile("pass"));
-	Thread.sleep(2000);
-	SignIn.LoginButton.click();
-	Thread.sleep(2000);
-	
+			String url = file.propertyFile("url");
+			String browser = file.propertyFile("browser");
+
+			if (browser.contains("chrome")) {
+				driver = new ChromeDriver();
+			} else {
+				System.out.println("Enter valid browser");
+			}
+
+			listnerDriver = driver;
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
+			driver.get(url);
+			
+			
+				SignIn = new signInPage(driver);
+				SignIn.emailTextField.sendKeys(file.propertyFile("noble"));
+				Thread.sleep(1000);
+				SignIn.passwordTextField.sendKeys(file.propertyFile("pass"));
+				Thread.sleep(2000);
+				SignIn.LoginButton.click();
+				Thread.sleep(1000);
 	}
 	
 	
